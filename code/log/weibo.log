@@ -1,0 +1,417 @@
+2024-04-07 23:39:54,423 - root - INFO - Min time is 1464710400, Train time is 10, Val time is 13, Test time is 16, Time unit is 3600
+2024-04-07 23:39:56,602 - root - INFO - Total Trans num is 1572287, Train cas num is 27353, Val cas num is 5861, Test cas num is 5862
+2024-04-07 23:39:56,602 - root - INFO - Time cost for loading data is 22.083749532699585s
+2024-04-07 23:39:56,676 - root - INFO - {'dataset': 'weibo', 'bs': 50, 'prefix': 'std_weibo', 'epoch': 150, 'lr': 0.0001, 'run': 1, 'gpu': 0, 'node_dim': 64, 'time_dim': 16, 'patience': 15, 'dropout': 0.6, 'predictor': 'fusion', 'embedding_module': 'aggregate', 'single': False, 'use_static': True, 'use_dynamic': True, 'use_structural': True, 'use_temporal': True, 'lambda': 0.5, 'model_path': 'saved_models/std_weibo', 'result_path': 'results/std_weibo', 'log_path': 'log/std_weibo.log', 'observe_time': 1, 'predict_time': 500, 'time_unit': 3600, 'train_time': 10, 'val_time': 13, 'test_time': 16, 'min_cas_size': 11, 'max_cas_size': 100, 'max_time': {'user': 1, 'cas': 1}, 'node_num': {'user': 918852, 'cas': 39076}, 'max_global_time': 18.99888888888889}
+2024-04-07 23:39:56,687 - root - INFO - begin runs:0
+2024-04-07 23:39:59,808 - root - INFO - Start training citation
+2024-04-07 23:39:59,810 - root - INFO - Epoch 0:
+2024-04-08 01:28:33,991 - root - INFO - Epoch0: time_cost:3702.674080848694 train_loss:3.8725574715789897
+2024-04-08 01:28:33,991 - root - INFO - train: loss:3.4246	msle:3.3658	male:1.3354	mape:0.3400	pcc:0.7224
+2024-04-08 01:28:33,991 - root - INFO - val: loss:3.3663	msle:3.3498	male:1.3307	mape:0.3360	pcc:0.7268
+2024-04-08 01:28:33,991 - root - INFO - test: loss:3.4823	msle:3.4214	male:1.3517	mape:0.3473	pcc:0.7239
+2024-04-08 01:28:39,608 - root - INFO - Epoch 1:
+2024-04-08 03:17:16,245 - root - INFO - Epoch1: time_cost:3701.3452780246735 train_loss:2.9530337277800847
+2024-04-08 03:17:16,246 - root - INFO - train: loss:3.3746	msle:3.3336	male:1.3533	mape:0.3459	pcc:0.7464
+2024-04-08 03:17:16,246 - root - INFO - val: loss:3.3702	msle:3.3551	male:1.3566	mape:0.3433	pcc:0.7474
+2024-04-08 03:17:16,246 - root - INFO - test: loss:3.4793	msle:3.4142	male:1.3765	mape:0.3546	pcc:0.7457
+2024-04-08 03:17:20,529 - root - INFO - Epoch 2:
+2024-04-08 05:06:32,925 - root - INFO - Epoch2: time_cost:3717.287487268448 train_loss:2.792104930081049
+2024-04-08 05:06:32,925 - root - INFO - train: loss:3.3231	msle:3.2792	male:1.3470	mape:0.3409	pcc:0.7596
+2024-04-08 05:06:32,925 - root - INFO - val: loss:3.3691	msle:3.3561	male:1.3567	mape:0.3403	pcc:0.7553
+2024-04-08 05:06:32,925 - root - INFO - test: loss:3.4439	msle:3.3796	male:1.3739	mape:0.3510	pcc:0.7565
+2024-04-08 05:06:37,199 - root - INFO - Epoch 3:
+2024-04-08 06:55:26,657 - root - INFO - Epoch3: time_cost:3716.0868530273438 train_loss:2.6951637715583336
+2024-04-08 06:55:26,657 - root - INFO - train: loss:3.1001	msle:3.0792	male:1.3032	mape:0.3266	pcc:0.7699
+2024-04-08 06:55:26,658 - root - INFO - val: loss:3.2394	msle:3.2272	male:1.3286	mape:0.3302	pcc:0.7593
+2024-04-08 06:55:26,658 - root - INFO - test: loss:3.2926	msle:3.2368	male:1.3426	mape:0.3394	pcc:0.7613
+2024-04-08 06:55:36,489 - root - INFO - Epoch 4:
+2024-04-08 08:44:41,611 - root - INFO - Epoch4: time_cost:3727.302556037903 train_loss:2.6078704413224094
+2024-04-08 08:44:41,611 - root - INFO - train: loss:3.0215	msle:3.0060	male:1.2929	mape:0.3221	pcc:0.7811
+2024-04-08 08:44:41,611 - root - INFO - val: loss:3.2473	msle:3.2354	male:1.3351	mape:0.3302	pcc:0.7629
+2024-04-08 08:44:41,611 - root - INFO - test: loss:3.2554	msle:3.2051	male:1.3428	mape:0.3374	pcc:0.7687
+2024-04-08 08:44:45,860 - root - INFO - Epoch 5:
+2024-04-08 10:32:18,678 - root - INFO - Epoch5: time_cost:3704.3695814609528 train_loss:2.523308918379002
+2024-04-08 10:32:18,678 - root - INFO - train: loss:2.7633	msle:2.7546	male:1.2271	mape:0.2994	pcc:0.7962
+2024-04-08 10:32:18,678 - root - INFO - val: loss:3.1310	msle:3.1236	male:1.3037	mape:0.3167	pcc:0.7663
+2024-04-08 10:32:18,679 - root - INFO - test: loss:3.1568	msle:3.1047	male:1.3131	mape:0.3241	pcc:0.7709
+2024-04-08 10:32:27,860 - root - INFO - Epoch 6:
+2024-04-08 12:19:02,732 - root - INFO - Epoch6: time_cost:3675.277360200882 train_loss:2.409668136379542
+2024-04-08 12:19:02,732 - root - INFO - train: loss:2.7964	msle:2.7917	male:1.2586	mape:0.3076	pcc:0.8136
+2024-04-08 12:19:02,733 - root - INFO - val: loss:3.3842	msle:3.3716	male:1.3749	mape:0.3355	pcc:0.7643
+2024-04-08 12:19:02,733 - root - INFO - test: loss:3.3854	msle:3.3372	male:1.3806	mape:0.3416	pcc:0.7717
+2024-04-08 12:19:06,967 - root - INFO - Epoch 7:
+2024-04-08 14:06:18,834 - root - INFO - Epoch7: time_cost:3698.7836520671844 train_loss:2.2767363336184605
+2024-04-08 14:06:18,834 - root - INFO - train: loss:2.3935	msle:2.3778	male:1.1305	mape:0.2673	pcc:0.8300
+2024-04-08 14:06:18,834 - root - INFO - val: loss:3.1206	msle:3.1120	male:1.2990	mape:0.3083	pcc:0.7701
+2024-04-08 14:06:18,834 - root - INFO - test: loss:3.1505	msle:3.0980	male:1.3054	mape:0.3147	pcc:0.7738
+2024-04-08 14:06:27,942 - root - INFO - Epoch 8:
+2024-04-08 15:53:08,876 - root - INFO - Epoch8: time_cost:3649.643427848816 train_loss:2.1520307902592544
+2024-04-08 15:53:08,876 - root - INFO - train: loss:2.2615	msle:2.2410	male:1.0874	mape:0.2520	pcc:0.8454
+2024-04-08 15:53:08,876 - root - INFO - val: loss:3.1841	msle:3.1746	male:1.3068	mape:0.3064	pcc:0.7691
+2024-04-08 15:53:08,876 - root - INFO - test: loss:3.1811	msle:3.1274	male:1.3064	mape:0.3107	pcc:0.7754
+2024-04-08 15:53:13,199 - root - INFO - Epoch 9:
+2024-04-08 17:40:22,059 - root - INFO - Epoch9: time_cost:3689.302376270294 train_loss:1.9878706778892934
+2024-04-08 17:40:22,059 - root - INFO - train: loss:2.0990	msle:2.0796	male:1.0575	mape:0.2386	pcc:0.8652
+2024-04-08 17:40:22,059 - root - INFO - val: loss:3.3115	msle:3.2948	male:1.3384	mape:0.3112	pcc:0.7680
+2024-04-08 17:40:22,060 - root - INFO - test: loss:3.3029	msle:3.2453	male:1.3276	mape:0.3118	pcc:0.7743
+2024-04-08 17:40:26,344 - root - INFO - Epoch 10:
+2024-04-08 19:27:58,142 - root - INFO - Epoch10: time_cost:3703.6842477321625 train_loss:1.8610645613351657
+2024-04-08 19:27:58,143 - root - INFO - train: loss:2.1638	msle:2.1348	male:1.0915	mape:0.2482	pcc:0.8711
+2024-04-08 19:27:58,143 - root - INFO - val: loss:3.5335	msle:3.5144	male:1.3910	mape:0.3290	pcc:0.7619
+2024-04-08 19:27:58,143 - root - INFO - test: loss:3.5149	msle:3.4520	male:1.3884	mape:0.3313	pcc:0.7696
+2024-04-08 19:28:02,413 - root - INFO - Epoch 11:
+2024-04-08 21:15:23,798 - root - INFO - Epoch11: time_cost:3676.857163667679 train_loss:1.716251947040894
+2024-04-08 21:15:23,798 - root - INFO - train: loss:1.9237	msle:1.9021	male:1.0192	mape:0.2251	pcc:0.8854
+2024-04-08 21:15:23,798 - root - INFO - val: loss:3.4410	msle:3.4221	male:1.3579	mape:0.3156	pcc:0.7628
+2024-04-08 21:15:23,798 - root - INFO - test: loss:3.4195	msle:3.3562	male:1.3537	mape:0.3189	pcc:0.7705
+2024-04-08 21:15:28,033 - root - INFO - Epoch 12:
+2024-04-08 23:02:23,116 - root - INFO - Epoch12: time_cost:3677.0471255779266 train_loss:1.58479903665932
+2024-04-08 23:02:23,116 - root - INFO - train: loss:1.6804	msle:1.6530	male:0.9355	mape:0.2014	pcc:0.8991
+2024-04-08 23:02:23,116 - root - INFO - val: loss:3.3000	msle:3.2835	male:1.3153	mape:0.3033	pcc:0.7636
+2024-04-08 23:02:23,116 - root - INFO - test: loss:3.2854	msle:3.2200	male:1.3134	mape:0.3065	pcc:0.7706
+2024-04-08 23:02:27,371 - root - INFO - Epoch 13:
+2024-04-09 00:49:59,003 - root - INFO - Epoch13: time_cost:3691.149007797241 train_loss:1.491926578210835
+2024-04-09 00:49:59,003 - root - INFO - train: loss:1.5831	msle:1.5595	male:0.9240	mape:0.1982	pcc:0.9077
+2024-04-09 00:49:59,003 - root - INFO - val: loss:3.2468	msle:3.2340	male:1.3207	mape:0.3052	pcc:0.7651
+2024-04-09 00:49:59,003 - root - INFO - test: loss:3.2449	msle:3.1837	male:1.3126	mape:0.3086	pcc:0.7712
+2024-04-09 00:50:03,233 - root - INFO - Epoch 14:
+2024-04-09 02:29:54,712 - root - INFO - Epoch14: time_cost:3532.2445917129517 train_loss:1.379733844392393
+2024-04-09 02:29:54,712 - root - INFO - train: loss:1.5741	msle:1.5431	male:0.9102	mape:0.1898	pcc:0.9173
+2024-04-09 02:29:54,712 - root - INFO - val: loss:3.4108	msle:3.3911	male:1.3389	mape:0.3098	pcc:0.7669
+2024-04-09 02:29:54,712 - root - INFO - test: loss:3.3202	msle:3.2586	male:1.3208	mape:0.3080	pcc:0.7791
+2024-04-09 02:29:58,870 - root - INFO - Epoch 15:
+2024-04-09 04:07:50,473 - root - INFO - Epoch15: time_cost:3436.4371330738068 train_loss:1.2799940264950032
+2024-04-09 04:07:50,473 - root - INFO - train: loss:1.4635	msle:1.4397	male:0.8849	mape:0.1842	pcc:0.9228
+2024-04-09 04:07:50,473 - root - INFO - val: loss:3.3630	msle:3.3445	male:1.3300	mape:0.3103	pcc:0.7657
+2024-04-09 04:07:50,473 - root - INFO - test: loss:3.3575	msle:3.2917	male:1.3227	mape:0.3121	pcc:0.7717
+2024-04-09 04:07:54,755 - root - INFO - Epoch 16:
+2024-04-09 05:46:08,854 - root - INFO - Epoch16: time_cost:3466.5434305667877 train_loss:1.2057419627619592
+2024-04-09 05:46:08,855 - root - INFO - train: loss:1.3180	msle:1.2834	male:0.8023	mape:0.1600	pcc:0.9275
+2024-04-09 05:46:08,855 - root - INFO - val: loss:3.2151	msle:3.1932	male:1.2880	mape:0.2899	pcc:0.7682
+2024-04-09 05:46:08,855 - root - INFO - test: loss:3.1388	msle:3.0867	male:1.2725	mape:0.2890	pcc:0.7773
+2024-04-09 05:46:13,093 - root - INFO - Epoch 17:
+2024-04-09 07:24:51,678 - root - INFO - Epoch17: time_cost:3465.15354180336 train_loss:1.0933881236123864
+2024-04-09 07:24:51,678 - root - INFO - train: loss:1.2064	msle:1.1810	male:0.7589	mape:0.1513	pcc:0.9338
+2024-04-09 07:24:51,678 - root - INFO - val: loss:3.2332	msle:3.2122	male:1.2724	mape:0.2921	pcc:0.7648
+2024-04-09 07:24:51,678 - root - INFO - test: loss:3.2104	msle:3.1416	male:1.2587	mape:0.2927	pcc:0.7701
+2024-04-09 07:24:56,062 - root - INFO - Epoch 18:
+2024-04-09 09:03:38,966 - root - INFO - Epoch18: time_cost:3494.466801404953 train_loss:1.033415890402638
+2024-04-09 09:03:38,966 - root - INFO - train: loss:1.1286	msle:1.1043	male:0.7427	mape:0.1499	pcc:0.9391
+2024-04-09 09:03:38,966 - root - INFO - val: loss:3.1415	msle:3.1206	male:1.2593	mape:0.2927	pcc:0.7661
+2024-04-09 09:03:38,967 - root - INFO - test: loss:3.0940	msle:3.0378	male:1.2449	mape:0.2918	pcc:0.7740
+2024-04-09 09:03:43,091 - root - INFO - Epoch 19:
+2024-04-09 10:42:29,663 - root - INFO - Epoch19: time_cost:3489.260478258133 train_loss:0.9853235807497089
+2024-04-09 10:42:29,663 - root - INFO - train: loss:1.0532	msle:1.0206	male:0.6984	mape:0.1360	pcc:0.9413
+2024-04-09 10:42:29,663 - root - INFO - val: loss:3.0738	msle:3.0547	male:1.2394	mape:0.2814	pcc:0.7638
+2024-04-09 10:42:29,663 - root - INFO - test: loss:3.0341	msle:2.9782	male:1.2254	mape:0.2819	pcc:0.7712
+2024-04-09 10:42:38,774 - root - INFO - Epoch 20:
+2024-04-09 12:21:25,179 - root - INFO - Epoch20: time_cost:3478.107163667679 train_loss:0.9094784222038279
+2024-04-09 12:21:25,179 - root - INFO - train: loss:0.9390	msle:0.9162	male:0.6521	mape:0.1276	pcc:0.9406
+2024-04-09 12:21:25,179 - root - INFO - val: loss:3.1084	msle:3.0787	male:1.2321	mape:0.2758	pcc:0.7525
+2024-04-09 12:21:25,179 - root - INFO - test: loss:2.9267	msle:2.8769	male:1.2011	mape:0.2712	pcc:0.7687
+2024-04-09 12:21:29,455 - root - INFO - Epoch 21:
+2024-04-09 13:59:26,219 - root - INFO - Epoch21: time_cost:3425.855986595154 train_loss:0.8585621703664128
+2024-04-09 13:59:26,219 - root - INFO - train: loss:1.0877	msle:1.0532	male:0.7017	mape:0.1315	pcc:0.9498
+2024-04-09 13:59:26,219 - root - INFO - val: loss:3.2461	msle:3.2122	male:1.2668	mape:0.2899	pcc:0.7675
+2024-04-09 13:59:26,219 - root - INFO - test: loss:3.2470	msle:3.1836	male:1.2565	mape:0.2912	pcc:0.7700
+2024-04-09 13:59:30,477 - root - INFO - Epoch 22:
+2024-04-09 15:37:24,869 - root - INFO - Epoch22: time_cost:3427.972268104553 train_loss:0.8133341533369997
+2024-04-09 15:37:24,869 - root - INFO - train: loss:1.0385	msle:1.0055	male:0.6787	mape:0.1284	pcc:0.9491
+2024-04-09 15:37:24,869 - root - INFO - val: loss:3.2041	msle:3.1749	male:1.2559	mape:0.2878	pcc:0.7660
+2024-04-09 15:37:24,869 - root - INFO - test: loss:3.2309	msle:3.1657	male:1.2452	mape:0.2893	pcc:0.7677
+2024-04-09 15:37:29,156 - root - INFO - Epoch 23:
+2024-04-09 17:14:58,351 - root - INFO - Epoch23: time_cost:3377.88560461998 train_loss:0.7679638935542878
+2024-04-09 17:14:58,368 - root - INFO - train: loss:0.7696	msle:0.7485	male:0.5633	mape:0.1078	pcc:0.9490
+2024-04-09 17:14:58,368 - root - INFO - val: loss:2.9137	msle:2.8966	male:1.1713	mape:0.2594	pcc:0.7622
+2024-04-09 17:14:58,368 - root - INFO - test: loss:2.7442	msle:2.6980	male:1.1500	mape:0.2574	pcc:0.7772
+2024-04-09 17:15:07,469 - root - INFO - Epoch 24:
+2024-04-09 18:52:48,463 - root - INFO - Epoch24: time_cost:3426.3213324546814 train_loss:0.7265015556279785
+2024-04-09 18:52:48,463 - root - INFO - train: loss:0.7947	msle:0.7697	male:0.5869	mape:0.1102	pcc:0.9558
+2024-04-09 18:52:48,463 - root - INFO - val: loss:2.9306	msle:2.9117	male:1.1848	mape:0.2649	pcc:0.7677
+2024-04-09 18:52:48,463 - root - INFO - test: loss:2.8576	msle:2.8088	male:1.1672	mape:0.2629	pcc:0.7763
+2024-04-09 18:52:52,707 - root - INFO - Epoch 25:
+2024-04-09 20:30:06,196 - root - INFO - Epoch25: time_cost:3388.5992584228516 train_loss:0.6756791782915414
+2024-04-09 20:30:06,196 - root - INFO - train: loss:0.6790	msle:0.6578	male:0.5398	mape:0.1017	pcc:0.9600
+2024-04-09 20:30:06,196 - root - INFO - val: loss:2.8224	msle:2.8051	male:1.1576	mape:0.2581	pcc:0.7714
+2024-04-09 20:30:06,196 - root - INFO - test: loss:2.7022	msle:2.6572	male:1.1388	mape:0.2569	pcc:0.7828
+2024-04-09 20:30:15,435 - root - INFO - Epoch 26:
+2024-04-09 22:08:39,492 - root - INFO - Epoch26: time_cost:3434.6551644802094 train_loss:0.6678318919246943
+2024-04-09 22:08:39,492 - root - INFO - train: loss:0.6499	msle:0.6269	male:0.5251	mape:0.0985	pcc:0.9639
+2024-04-09 22:08:39,492 - root - INFO - val: loss:2.8338	msle:2.8165	male:1.1624	mape:0.2658	pcc:0.7716
+2024-04-09 22:08:39,492 - root - INFO - test: loss:2.7642	msle:2.7168	male:1.1519	mape:0.2666	pcc:0.7786
+2024-04-09 22:08:43,864 - root - INFO - Epoch 27:
+2024-04-09 23:59:54,073 - root - INFO - Epoch27: time_cost:4223.62588763237 train_loss:0.6222671740484605
+2024-04-09 23:59:54,073 - root - INFO - train: loss:0.5847	msle:0.5651	male:0.4873	mape:0.0932	pcc:0.9617
+2024-04-09 23:59:54,073 - root - INFO - val: loss:2.7950	msle:2.7813	male:1.1404	mape:0.2535	pcc:0.7659
+2024-04-09 23:59:54,073 - root - INFO - test: loss:2.7329	msle:2.6844	male:1.1263	mape:0.2542	pcc:0.7721
+2024-04-10 00:00:03,364 - root - INFO - Epoch 28:
+2024-04-10 02:05:11,217 - root - INFO - Epoch28: time_cost:5045.452787876129 train_loss:0.5939902634141737
+2024-04-10 02:05:11,217 - root - INFO - train: loss:0.7200	msle:0.6886	male:0.5378	mape:0.0993	pcc:0.9629
+2024-04-10 02:05:11,217 - root - INFO - val: loss:2.8972	msle:2.8810	male:1.1608	mape:0.2588	pcc:0.7682
+2024-04-10 02:05:11,217 - root - INFO - test: loss:2.8577	msle:2.8045	male:1.1443	mape:0.2586	pcc:0.7725
+2024-04-10 02:05:15,514 - root - INFO - Epoch 29:
+2024-04-10 03:42:52,100 - root - INFO - Epoch29: time_cost:3433.271938085556 train_loss:0.5735404216581075
+2024-04-10 03:42:52,100 - root - INFO - train: loss:0.5773	msle:0.5530	male:0.4739	mape:0.0886	pcc:0.9658
+2024-04-10 03:42:52,101 - root - INFO - val: loss:2.7790	msle:2.7704	male:1.1288	mape:0.2551	pcc:0.7700
+2024-04-10 03:42:52,101 - root - INFO - test: loss:2.6890	msle:2.6350	male:1.1159	mape:0.2550	pcc:0.7790
+2024-04-10 03:43:01,534 - root - INFO - Epoch 30:
+2024-04-10 05:16:14,817 - root - INFO - Epoch30: time_cost:3362.1050531864166 train_loss:0.5178737326666857
+2024-04-10 05:16:14,818 - root - INFO - train: loss:0.6006	msle:0.5744	male:0.4786	mape:0.0892	pcc:0.9645
+2024-04-10 05:16:14,818 - root - INFO - val: loss:2.7643	msle:2.7430	male:1.1242	mape:0.2462	pcc:0.7738
+2024-04-10 05:16:14,818 - root - INFO - test: loss:2.6994	msle:2.6457	male:1.1119	mape:0.2463	pcc:0.7798
+2024-04-10 05:16:23,878 - root - INFO - Epoch 31:
+2024-04-10 06:50:14,322 - root - INFO - Epoch31: time_cost:3397.4539320468903 train_loss:0.5047733904471333
+2024-04-10 06:50:14,323 - root - INFO - train: loss:0.5368	msle:0.5129	male:0.4441	mape:0.0838	pcc:0.9654
+2024-04-10 06:50:14,323 - root - INFO - val: loss:2.7635	msle:2.7433	male:1.1216	mape:0.2504	pcc:0.7678
+2024-04-10 06:50:14,323 - root - INFO - test: loss:2.6722	msle:2.6166	male:1.1032	mape:0.2492	pcc:0.7761
+2024-04-10 06:50:18,460 - root - INFO - Epoch 32:
+2024-04-10 08:23:51,460 - root - INFO - Epoch32: time_cost:3374.787291765213 train_loss:0.5041075892877136
+2024-04-10 08:23:51,460 - root - INFO - train: loss:0.5397	msle:0.5183	male:0.4484	mape:0.0840	pcc:0.9653
+2024-04-10 08:23:51,460 - root - INFO - val: loss:2.7225	msle:2.7086	male:1.1195	mape:0.2488	pcc:0.7701
+2024-04-10 08:23:51,460 - root - INFO - test: loss:2.7142	msle:2.6635	male:1.1104	mape:0.2513	pcc:0.7720
+2024-04-10 08:24:00,452 - root - INFO - Epoch 33:
+2024-04-10 09:58:10,770 - root - INFO - Epoch33: time_cost:3407.4774692058563 train_loss:0.4839396648452124
+2024-04-10 09:58:10,770 - root - INFO - train: loss:0.4939	msle:0.4730	male:0.4361	mape:0.0815	pcc:0.9703
+2024-04-10 09:58:10,770 - root - INFO - val: loss:2.7357	msle:2.7289	male:1.1203	mape:0.2548	pcc:0.7698
+2024-04-10 09:58:10,770 - root - INFO - test: loss:2.7263	msle:2.6668	male:1.1154	mape:0.2587	pcc:0.7736
+2024-04-10 09:58:15,551 - root - INFO - Epoch 34:
+2024-04-10 11:30:51,060 - root - INFO - Epoch34: time_cost:3294.3338027000427 train_loss:0.46573822849264995
+2024-04-10 11:30:51,060 - root - INFO - train: loss:0.5268	msle:0.5023	male:0.4315	mape:0.0794	pcc:0.9698
+2024-04-10 11:30:51,060 - root - INFO - val: loss:2.7006	msle:2.6917	male:1.1133	mape:0.2530	pcc:0.7730
+2024-04-10 11:30:51,061 - root - INFO - test: loss:2.6642	msle:2.6090	male:1.1000	mape:0.2542	pcc:0.7779
+2024-04-10 11:31:00,109 - root - INFO - Epoch 35:
+2024-04-10 13:03:59,067 - root - INFO - Epoch35: time_cost:3347.764243364334 train_loss:0.45099261107515065
+2024-04-10 13:03:59,067 - root - INFO - train: loss:0.5642	msle:0.5407	male:0.4748	mape:0.0875	pcc:0.9687
+2024-04-10 13:03:59,067 - root - INFO - val: loss:2.7417	msle:2.7239	male:1.1247	mape:0.2475	pcc:0.7733
+2024-04-10 13:03:59,067 - root - INFO - test: loss:2.6639	msle:2.6116	male:1.1098	mape:0.2484	pcc:0.7803
+2024-04-10 13:04:03,241 - root - INFO - Epoch 36:
+2024-04-10 14:37:48,101 - root - INFO - Epoch36: time_cost:3389.006889820099 train_loss:0.4301772548088945
+2024-04-10 14:37:48,102 - root - INFO - train: loss:0.4360	msle:0.4180	male:0.4142	mape:0.0770	pcc:0.9744
+2024-04-10 14:37:48,102 - root - INFO - val: loss:2.6457	msle:2.6269	male:1.0981	mape:0.2449	pcc:0.7775
+2024-04-10 14:37:48,102 - root - INFO - test: loss:2.5929	msle:2.5442	male:1.0884	mape:0.2468	pcc:0.7817
+2024-04-10 14:37:57,328 - root - INFO - Epoch 37:
+2024-04-10 16:10:30,397 - root - INFO - Epoch37: time_cost:3294.734014749527 train_loss:0.4136539841058942
+2024-04-10 16:10:30,397 - root - INFO - train: loss:0.4088	msle:0.3955	male:0.3923	mape:0.0736	pcc:0.9734
+2024-04-10 16:10:30,397 - root - INFO - val: loss:2.6420	msle:2.6271	male:1.0967	mape:0.2460	pcc:0.7753
+2024-04-10 16:10:30,398 - root - INFO - test: loss:2.5930	msle:2.5409	male:1.0925	mape:0.2491	pcc:0.7801
+2024-04-10 16:10:34,524 - root - INFO - Epoch 38:
+2024-04-10 17:44:30,764 - root - INFO - Epoch38: time_cost:3405.2834692001343 train_loss:0.40960735399501286
+2024-04-10 17:44:30,764 - root - INFO - train: loss:0.4491	msle:0.4299	male:0.4084	mape:0.0754	pcc:0.9732
+2024-04-10 17:44:30,764 - root - INFO - val: loss:2.6264	msle:2.6136	male:1.0978	mape:0.2435	pcc:0.7781
+2024-04-10 17:44:30,764 - root - INFO - test: loss:2.6042	msle:2.5571	male:1.0928	mape:0.2468	pcc:0.7804
+2024-04-10 17:44:39,899 - root - INFO - Epoch 39:
+2024-04-10 19:17:14,043 - root - INFO - Epoch39: time_cost:3323.451506614685 train_loss:0.38650008303486
+2024-04-10 19:17:14,043 - root - INFO - train: loss:0.4115	msle:0.3922	male:0.3920	mape:0.0726	pcc:0.9758
+2024-04-10 19:17:14,043 - root - INFO - val: loss:2.6340	msle:2.6288	male:1.1011	mape:0.2477	pcc:0.7771
+2024-04-10 19:17:14,043 - root - INFO - test: loss:2.6004	msle:2.5539	male:1.0956	mape:0.2515	pcc:0.7810
+2024-04-10 19:17:18,216 - root - INFO - Epoch 40:
+2024-04-10 20:51:12,861 - root - INFO - Epoch40: time_cost:3404.8790395259857 train_loss:0.3756474666403986
+2024-04-10 20:51:12,862 - root - INFO - train: loss:0.4306	msle:0.4141	male:0.4072	mape:0.0756	pcc:0.9747
+2024-04-10 20:51:12,862 - root - INFO - val: loss:2.6193	msle:2.6130	male:1.0972	mape:0.2439	pcc:0.7777
+2024-04-10 20:51:12,862 - root - INFO - test: loss:2.5907	msle:2.5398	male:1.0915	mape:0.2472	pcc:0.7807
+2024-04-10 20:51:16,995 - root - INFO - Epoch 41:
+2024-04-10 22:24:44,309 - root - INFO - Epoch41: time_cost:3375.0769357681274 train_loss:0.37277892789223904
+2024-04-10 22:24:44,310 - root - INFO - train: loss:0.3939	msle:0.3806	male:0.3920	mape:0.0723	pcc:0.9747
+2024-04-10 22:24:44,310 - root - INFO - val: loss:2.5745	msle:2.5642	male:1.0923	mape:0.2464	pcc:0.7799
+2024-04-10 22:24:44,310 - root - INFO - test: loss:2.5708	msle:2.5226	male:1.0919	mape:0.2515	pcc:0.7814
+2024-04-10 22:24:53,839 - root - INFO - Epoch 42:
+2024-04-10 23:58:51,570 - root - INFO - Epoch42: time_cost:3406.510265350342 train_loss:0.3692860483100719
+2024-04-10 23:58:51,571 - root - INFO - train: loss:0.5046	msle:0.4843	male:0.4309	mape:0.0777	pcc:0.9716
+2024-04-10 23:58:51,571 - root - INFO - val: loss:2.6460	msle:2.6353	male:1.0997	mape:0.2399	pcc:0.7798
+2024-04-10 23:58:51,571 - root - INFO - test: loss:2.6534	msle:2.6067	male:1.1001	mape:0.2436	pcc:0.7789
+2024-04-10 23:58:55,799 - root - INFO - Epoch 43:
+2024-04-11 01:32:28,581 - root - INFO - Epoch43: time_cost:3381.8092970848083 train_loss:0.3444697587323615
+2024-04-11 01:32:28,581 - root - INFO - train: loss:0.4198	msle:0.4023	male:0.4141	mape:0.0773	pcc:0.9746
+2024-04-11 01:32:28,581 - root - INFO - val: loss:2.6245	msle:2.6195	male:1.1030	mape:0.2421	pcc:0.7787
+2024-04-11 01:32:28,581 - root - INFO - test: loss:2.6106	msle:2.5597	male:1.0982	mape:0.2449	pcc:0.7803
+2024-04-11 01:32:32,764 - root - INFO - Epoch 44:
+2024-04-11 03:06:21,838 - root - INFO - Epoch44: time_cost:3392.116541624069 train_loss:0.33596945191963357
+2024-04-11 03:06:21,839 - root - INFO - train: loss:0.3507	msle:0.3405	male:0.3904	mape:0.0744	pcc:0.9782
+2024-04-11 03:06:21,839 - root - INFO - val: loss:2.5707	msle:2.5615	male:1.0909	mape:0.2409	pcc:0.7811
+2024-04-11 03:06:21,839 - root - INFO - test: loss:2.5281	msle:2.4813	male:1.0793	mape:0.2423	pcc:0.7849
+2024-04-11 03:06:30,944 - root - INFO - Epoch 45:
+2024-04-11 04:40:12,687 - root - INFO - Epoch45: time_cost:3390.747953414917 train_loss:0.3294207130888953
+2024-04-11 04:40:12,687 - root - INFO - train: loss:0.3651	msle:0.3542	male:0.3935	mape:0.0744	pcc:0.9790
+2024-04-11 04:40:12,687 - root - INFO - val: loss:2.6139	msle:2.6070	male:1.1011	mape:0.2487	pcc:0.7778
+2024-04-11 04:40:12,687 - root - INFO - test: loss:2.6278	msle:2.5754	male:1.0953	mape:0.2512	pcc:0.7780
+2024-04-11 04:40:16,845 - root - INFO - Epoch 46:
+2024-04-11 06:14:01,255 - root - INFO - Epoch46: time_cost:3397.1518635749817 train_loss:0.31566820697433756
+2024-04-11 06:14:01,255 - root - INFO - train: loss:0.4239	msle:0.4041	male:0.4058	mape:0.0753	pcc:0.9750
+2024-04-11 06:14:01,256 - root - INFO - val: loss:2.6808	msle:2.6753	male:1.1074	mape:0.2498	pcc:0.7711
+2024-04-11 06:14:01,256 - root - INFO - test: loss:2.7042	msle:2.6405	male:1.1002	mape:0.2522	pcc:0.7707
+2024-04-11 06:14:05,453 - root - INFO - Epoch 47:
+2024-04-11 07:48:05,644 - root - INFO - Epoch47: time_cost:3406.856088399887 train_loss:0.2987294937189139
+2024-04-11 07:48:05,645 - root - INFO - train: loss:0.2794	msle:0.2695	male:0.3454	mape:0.0659	pcc:0.9812
+2024-04-11 07:48:05,645 - root - INFO - val: loss:2.5455	msle:2.5379	male:1.0787	mape:0.2399	pcc:0.7793
+2024-04-11 07:48:05,645 - root - INFO - test: loss:2.4830	msle:2.4372	male:1.0685	mape:0.2422	pcc:0.7855
+2024-04-11 07:48:14,815 - root - INFO - Epoch 48:
+2024-04-11 09:21:37,126 - root - INFO - Epoch48: time_cost:3369.0543994903564 train_loss:0.29587377178015073
+2024-04-11 09:21:37,126 - root - INFO - train: loss:0.3292	msle:0.3203	male:0.3880	mape:0.0726	pcc:0.9794
+2024-04-11 09:21:37,126 - root - INFO - val: loss:2.5676	msle:2.5678	male:1.0963	mape:0.2413	pcc:0.7793
+2024-04-11 09:21:37,126 - root - INFO - test: loss:2.5386	msle:2.4927	male:1.0874	mape:0.2434	pcc:0.7820
+2024-04-11 09:21:41,275 - root - INFO - Epoch 49:
+2024-04-11 10:55:47,853 - root - INFO - Epoch49: time_cost:3417.440265893936 train_loss:0.2854781254110934
+2024-04-11 10:55:47,854 - root - INFO - train: loss:0.3269	msle:0.3144	male:0.3662	mape:0.0683	pcc:0.9797
+2024-04-11 10:55:47,854 - root - INFO - val: loss:2.5841	msle:2.5761	male:1.0913	mape:0.2475	pcc:0.7775
+2024-04-11 10:55:47,854 - root - INFO - test: loss:2.5467	msle:2.4962	male:1.0806	mape:0.2501	pcc:0.7818
+2024-04-11 10:55:52,107 - root - INFO - Epoch 50:
+2024-04-11 12:29:01,467 - root - INFO - Epoch50: time_cost:3356.3408076763153 train_loss:0.28332950488327835
+2024-04-11 12:29:01,467 - root - INFO - train: loss:0.3591	msle:0.3439	male:0.3931	mape:0.0756	pcc:0.9783
+2024-04-11 12:29:01,467 - root - INFO - val: loss:2.6496	msle:2.6402	male:1.1044	mape:0.2508	pcc:0.7740
+2024-04-11 12:29:01,467 - root - INFO - test: loss:2.6092	msle:2.5539	male:1.0941	mape:0.2529	pcc:0.7781
+2024-04-11 12:29:05,575 - root - INFO - Epoch 51:
+2024-04-11 14:03:09,652 - root - INFO - Epoch51: time_cost:3414.4812092781067 train_loss:0.27922973400163026
+2024-04-11 14:03:09,652 - root - INFO - train: loss:0.3881	msle:0.3737	male:0.4098	mape:0.0746	pcc:0.9774
+2024-04-11 14:03:09,652 - root - INFO - val: loss:2.6305	msle:2.6206	male:1.1005	mape:0.2489	pcc:0.7756
+2024-04-11 14:03:09,652 - root - INFO - test: loss:2.5946	msle:2.5406	male:1.0954	mape:0.2522	pcc:0.7791
+2024-04-11 14:03:13,791 - root - INFO - Epoch 52:
+2024-04-11 15:36:44,089 - root - INFO - Epoch52: time_cost:3378.7463681697845 train_loss:0.2644690055428023
+2024-04-11 15:36:44,089 - root - INFO - train: loss:0.2752	msle:0.2656	male:0.3353	mape:0.0629	pcc:0.9819
+2024-04-11 15:36:44,089 - root - INFO - val: loss:2.5381	msle:2.5299	male:1.0777	mape:0.2426	pcc:0.7795
+2024-04-11 15:36:44,089 - root - INFO - test: loss:2.5146	msle:2.4671	male:1.0702	mape:0.2460	pcc:0.7819
+2024-04-11 15:36:53,490 - root - INFO - Epoch 53:
+2024-04-11 17:03:08,771 - root - INFO - Epoch53: time_cost:2948.7916219234467 train_loss:0.2644531561846384
+2024-04-11 17:03:08,771 - root - INFO - train: loss:0.3018	msle:0.2885	male:0.3664	mape:0.0682	pcc:0.9814
+2024-04-11 17:03:08,771 - root - INFO - val: loss:2.5649	msle:2.5579	male:1.0854	mape:0.2455	pcc:0.7789
+2024-04-11 17:03:08,771 - root - INFO - test: loss:2.5496	msle:2.5043	male:1.0816	mape:0.2491	pcc:0.7804
+2024-04-11 17:03:12,945 - root - INFO - Epoch 54:
+2024-04-11 18:36:43,492 - root - INFO - Epoch54: time_cost:3376.920535326004 train_loss:0.2563067596527326
+2024-04-11 18:36:43,492 - root - INFO - train: loss:0.3152	msle:0.3032	male:0.3914	mape:0.0743	pcc:0.9826
+2024-04-11 18:36:43,492 - root - INFO - val: loss:2.5718	msle:2.5672	male:1.0903	mape:0.2413	pcc:0.7804
+2024-04-11 18:36:43,492 - root - INFO - test: loss:2.5232	msle:2.4761	male:1.0769	mape:0.2425	pcc:0.7845
+2024-04-11 18:36:47,616 - root - INFO - Epoch 55:
+2024-04-11 20:10:30,804 - root - INFO - Epoch55: time_cost:3394.602489709854 train_loss:0.24721881562581452
+2024-04-11 20:10:30,805 - root - INFO - train: loss:0.3214	msle:0.3108	male:0.3748	mape:0.0700	pcc:0.9807
+2024-04-11 20:10:30,805 - root - INFO - val: loss:2.6099	msle:2.6024	male:1.0911	mape:0.2484	pcc:0.7750
+2024-04-11 20:10:30,805 - root - INFO - test: loss:2.5791	msle:2.5303	male:1.0831	mape:0.2513	pcc:0.7782
+2024-04-11 20:10:34,904 - root - INFO - Epoch 56:
+2024-04-11 21:44:09,314 - root - INFO - Epoch56: time_cost:3386.1940784454346 train_loss:0.238842697571247
+2024-04-11 21:44:09,315 - root - INFO - train: loss:0.3199	msle:0.3092	male:0.3806	mape:0.0699	pcc:0.9804
+2024-04-11 21:44:09,315 - root - INFO - val: loss:2.5376	msle:2.5362	male:1.0835	mape:0.2416	pcc:0.7817
+2024-04-11 21:44:09,315 - root - INFO - test: loss:2.5089	msle:2.4659	male:1.0740	mape:0.2452	pcc:0.7840
+2024-04-11 21:44:13,406 - root - INFO - Epoch 57:
+2024-04-11 23:18:04,616 - root - INFO - Epoch57: time_cost:3403.533559322357 train_loss:0.2307723858366084
+2024-04-11 23:18:04,616 - root - INFO - train: loss:0.2991	msle:0.2869	male:0.3508	mape:0.0640	pcc:0.9815
+2024-04-11 23:18:04,616 - root - INFO - val: loss:2.5566	msle:2.5538	male:1.0867	mape:0.2480	pcc:0.7780
+2024-04-11 23:18:04,616 - root - INFO - test: loss:2.5631	msle:2.5134	male:1.0811	mape:0.2527	pcc:0.7788
+2024-04-11 23:18:08,832 - root - INFO - Epoch 58:
+2024-04-12 00:52:08,998 - root - INFO - Epoch58: time_cost:3408.1833579540253 train_loss:0.22902108228952317
+2024-04-12 00:52:08,999 - root - INFO - train: loss:0.2904	msle:0.2797	male:0.3739	mape:0.0694	pcc:0.9818
+2024-04-12 00:52:08,999 - root - INFO - val: loss:2.5803	msle:2.5732	male:1.0939	mape:0.2478	pcc:0.7769
+2024-04-12 00:52:08,999 - root - INFO - test: loss:2.5663	msle:2.5145	male:1.0899	mape:0.2525	pcc:0.7786
+2024-04-12 00:52:13,157 - root - INFO - Epoch 59:
+2024-04-12 02:19:57,293 - root - INFO - Epoch59: time_cost:3271.3628871440887 train_loss:0.23120641941174438
+2024-04-12 02:19:57,293 - root - INFO - train: loss:0.3313	msle:0.3206	male:0.4044	mape:0.0762	pcc:0.9814
+2024-04-12 02:19:57,293 - root - INFO - val: loss:2.5977	msle:2.5905	male:1.0982	mape:0.2446	pcc:0.7785
+2024-04-12 02:19:57,294 - root - INFO - test: loss:2.5890	msle:2.5376	male:1.0895	mape:0.2485	pcc:0.7786
+2024-04-12 02:20:01,370 - root - INFO - Epoch 60:
+2024-04-12 03:46:18,841 - root - INFO - Epoch60: time_cost:3180.7745423316956 train_loss:0.2237374835206058
+2024-04-12 03:46:18,841 - root - INFO - train: loss:0.2490	msle:0.2445	male:0.3590	mape:0.0681	pcc:0.9846
+2024-04-12 03:46:18,841 - root - INFO - val: loss:2.5623	msle:2.5590	male:1.0905	mape:0.2472	pcc:0.7781
+2024-04-12 03:46:18,841 - root - INFO - test: loss:2.5153	msle:2.4660	male:1.0770	mape:0.2481	pcc:0.7830
+2024-04-12 03:46:22,893 - root - INFO - Epoch 61:
+2024-04-12 05:12:19,850 - root - INFO - Epoch61: time_cost:3155.767966747284 train_loss:0.21721376238851342
+2024-04-12 05:12:19,850 - root - INFO - train: loss:0.2670	msle:0.2614	male:0.3757	mape:0.0706	pcc:0.9843
+2024-04-12 05:12:19,850 - root - INFO - val: loss:2.5425	msle:2.5342	male:1.0866	mape:0.2448	pcc:0.7815
+2024-04-12 05:12:19,850 - root - INFO - test: loss:2.5146	msle:2.4698	male:1.0776	mape:0.2476	pcc:0.7837
+2024-04-12 05:12:23,893 - root - INFO - Epoch 62:
+2024-04-12 06:38:45,863 - root - INFO - Epoch62: time_cost:3180.1148896217346 train_loss:0.20967806098485062
+2024-04-12 06:38:45,863 - root - INFO - train: loss:0.2946	msle:0.2900	male:0.3937	mape:0.0747	pcc:0.9825
+2024-04-12 06:38:45,863 - root - INFO - val: loss:2.6113	msle:2.6033	male:1.0977	mape:0.2468	pcc:0.7762
+2024-04-12 06:38:45,863 - root - INFO - test: loss:2.5738	msle:2.5268	male:1.0891	mape:0.2495	pcc:0.7790
+2024-04-12 06:38:49,907 - root - INFO - Epoch 63:
+2024-04-12 08:04:55,420 - root - INFO - Epoch63: time_cost:3167.2560918331146 train_loss:0.2087099028269973
+2024-04-12 08:04:55,420 - root - INFO - train: loss:0.2613	msle:0.2548	male:0.3734	mape:0.0707	pcc:0.9847
+2024-04-12 08:04:55,420 - root - INFO - val: loss:2.5391	msle:2.5347	male:1.0847	mape:0.2397	pcc:0.7826
+2024-04-12 08:04:55,420 - root - INFO - test: loss:2.4825	msle:2.4396	male:1.0699	mape:0.2420	pcc:0.7870
+2024-04-12 08:04:59,510 - root - INFO - Epoch 64:
+2024-04-12 09:30:49,079 - root - INFO - Epoch64: time_cost:3147.4197838306427 train_loss:0.20189456948132584
+2024-04-12 09:30:49,080 - root - INFO - train: loss:0.2319	msle:0.2285	male:0.3501	mape:0.0662	pcc:0.9857
+2024-04-12 09:30:49,080 - root - INFO - val: loss:2.5214	msle:2.5181	male:1.0795	mape:0.2417	pcc:0.7822
+2024-04-12 09:30:49,080 - root - INFO - test: loss:2.4928	msle:2.4533	male:1.0717	mape:0.2446	pcc:0.7846
+2024-04-12 09:30:58,449 - root - INFO - Epoch 65:
+2024-04-12 10:56:43,497 - root - INFO - Epoch65: time_cost:3137.3375952243805 train_loss:0.19814061261939295
+2024-04-12 10:56:43,497 - root - INFO - train: loss:0.2544	msle:0.2466	male:0.3600	mape:0.0675	pcc:0.9855
+2024-04-12 10:56:43,497 - root - INFO - val: loss:2.5269	msle:2.5214	male:1.0806	mape:0.2424	pcc:0.7823
+2024-04-12 10:56:43,497 - root - INFO - test: loss:2.5127	msle:2.4716	male:1.0742	mape:0.2467	pcc:0.7830
+2024-04-12 10:56:47,865 - root - INFO - Epoch 66:
+2024-04-12 12:28:39,337 - root - INFO - Epoch66: time_cost:3277.5118169784546 train_loss:0.19591453426771227
+2024-04-12 12:28:39,337 - root - INFO - train: loss:0.2736	msle:0.2696	male:0.3904	mape:0.0728	pcc:0.9840
+2024-04-12 12:28:39,337 - root - INFO - val: loss:2.5524	msle:2.5518	male:1.0944	mape:0.2453	pcc:0.7802
+2024-04-12 12:28:39,337 - root - INFO - test: loss:2.5395	msle:2.4995	male:1.0873	mape:0.2493	pcc:0.7806
+2024-04-12 12:28:43,485 - root - INFO - Epoch 67:
+2024-04-12 14:01:05,854 - root - INFO - Epoch67: time_cost:3277.1950402259827 train_loss:0.19610697658872048
+2024-04-12 14:01:05,855 - root - INFO - train: loss:0.2471	msle:0.2400	male:0.3603	mape:0.0677	pcc:0.9855
+2024-04-12 14:01:05,855 - root - INFO - val: loss:2.5359	msle:2.5335	male:1.0867	mape:0.2434	pcc:0.7816
+2024-04-12 14:01:05,855 - root - INFO - test: loss:2.4997	msle:2.4627	male:1.0752	mape:0.2462	pcc:0.7841
+2024-04-12 14:01:10,065 - root - INFO - Epoch 68:
+2024-04-12 15:36:15,359 - root - INFO - Epoch68: time_cost:3261.5677700042725 train_loss:0.19007681436102705
+2024-04-12 15:36:15,360 - root - INFO - train: loss:0.2920	msle:0.2837	male:0.4006	mape:0.0747	pcc:0.9839
+2024-04-12 15:36:15,360 - root - INFO - val: loss:2.5868	msle:2.5802	male:1.0985	mape:0.2469	pcc:0.7781
+2024-04-12 15:36:15,360 - root - INFO - test: loss:2.5395	msle:2.5003	male:1.0881	mape:0.2495	pcc:0.7812
+2024-04-12 15:36:19,773 - root - INFO - Epoch 69:
+2024-04-12 17:12:41,766 - root - INFO - Epoch69: time_cost:3325.8045885562897 train_loss:0.18820113246914189
+2024-04-12 17:12:41,766 - root - INFO - train: loss:0.2763	msle:0.2704	male:0.3820	mape:0.0700	pcc:0.9829
+2024-04-12 17:12:41,766 - root - INFO - val: loss:2.5453	msle:2.5447	male:1.0893	mape:0.2464	pcc:0.7794
+2024-04-12 17:12:41,766 - root - INFO - test: loss:2.4896	msle:2.4473	male:1.0763	mape:0.2477	pcc:0.7847
+2024-04-12 17:12:46,147 - root - INFO - Epoch 70:
+2024-04-12 18:49:03,103 - root - INFO - Epoch70: time_cost:3329.7426207065582 train_loss:0.1817224344592086
+2024-04-12 18:49:03,103 - root - INFO - train: loss:0.2582	msle:0.2495	male:0.3661	mape:0.0677	pcc:0.9846
+2024-04-12 18:49:03,103 - root - INFO - val: loss:2.5631	msle:2.5594	male:1.0866	mape:0.2447	pcc:0.7779
+2024-04-12 18:49:03,103 - root - INFO - test: loss:2.4681	msle:2.4301	male:1.0692	mape:0.2452	pcc:0.7862
+2024-04-12 18:49:07,317 - root - INFO - Epoch 71:
+2024-04-12 20:26:10,600 - root - INFO - Epoch71: time_cost:3368.419007062912 train_loss:0.17925908076129385
+2024-04-12 20:26:10,600 - root - INFO - train: loss:0.2542	msle:0.2447	male:0.3433	mape:0.0633	pcc:0.9842
+2024-04-12 20:26:10,600 - root - INFO - val: loss:2.5460	msle:2.5372	male:1.0780	mape:0.2429	pcc:0.7794
+2024-04-12 20:26:10,600 - root - INFO - test: loss:2.4708	msle:2.4328	male:1.0676	mape:0.2460	pcc:0.7855
+2024-04-12 20:26:14,879 - root - INFO - Epoch 72:
+2024-04-12 22:03:06,262 - root - INFO - Epoch72: time_cost:3370.590080976486 train_loss:0.17425473830192093
+2024-04-12 22:03:06,262 - root - INFO - train: loss:0.2801	msle:0.2772	male:0.3994	mape:0.0747	pcc:0.9843
+2024-04-12 22:03:06,262 - root - INFO - val: loss:2.5498	msle:2.5498	male:1.0919	mape:0.2423	pcc:0.7821
+2024-04-12 22:03:06,263 - root - INFO - test: loss:2.5268	msle:2.4853	male:1.0809	mape:0.2454	pcc:0.7836
+2024-04-12 22:03:10,448 - root - INFO - Epoch 73:
+2024-04-12 23:39:47,035 - root - INFO - Epoch73: time_cost:3345.711552619934 train_loss:0.17802088730092827
+2024-04-12 23:39:47,035 - root - INFO - train: loss:0.2387	msle:0.2326	male:0.3488	mape:0.0645	pcc:0.9851
+2024-04-12 23:39:47,035 - root - INFO - val: loss:2.5500	msle:2.5451	male:1.0871	mape:0.2458	pcc:0.7788
+2024-04-12 23:39:47,035 - root - INFO - test: loss:2.5175	msle:2.4733	male:1.0783	mape:0.2481	pcc:0.7821
+2024-04-12 23:39:51,268 - root - INFO - Epoch 74:
+2024-04-13 01:16:44,018 - root - INFO - Epoch74: time_cost:3364.3256809711456 train_loss:0.17603974701094885
+2024-04-13 01:16:44,018 - root - INFO - train: loss:0.2738	msle:0.2658	male:0.3821	mape:0.0705	pcc:0.9842
+2024-04-13 01:16:44,019 - root - INFO - val: loss:2.5654	msle:2.5590	male:1.0917	mape:0.2453	pcc:0.7800
+2024-04-13 01:16:44,019 - root - INFO - test: loss:2.5266	msle:2.4833	male:1.0788	mape:0.2463	pcc:0.7836
+2024-04-13 01:16:48,211 - root - INFO - Epoch 75:
+2024-04-13 02:54:01,278 - root - INFO - Epoch75: time_cost:3380.857506752014 train_loss:0.17053324370336922
+2024-04-13 02:54:01,278 - root - INFO - train: loss:0.2585	msle:0.2542	male:0.3880	mape:0.0724	pcc:0.9853
+2024-04-13 02:54:01,278 - root - INFO - val: loss:2.6042	msle:2.5984	male:1.0997	mape:0.2487	pcc:0.7755
+2024-04-13 02:54:01,278 - root - INFO - test: loss:2.5468	msle:2.4993	male:1.0849	mape:0.2483	pcc:0.7809
+2024-04-13 02:54:05,485 - root - INFO - Epoch 76:
+2024-04-13 04:30:46,074 - root - INFO - Epoch76: time_cost:3353.635446548462 train_loss:0.16176343978392602
+2024-04-13 04:30:46,074 - root - INFO - train: loss:0.2436	msle:0.2380	male:0.3644	mape:0.0669	pcc:0.9847
+2024-04-13 04:30:46,074 - root - INFO - val: loss:2.5748	msle:2.5710	male:1.0947	mape:0.2495	pcc:0.7765
+2024-04-13 04:30:46,074 - root - INFO - test: loss:2.5591	msle:2.5126	male:1.0871	mape:0.2522	pcc:0.7785
+2024-04-13 04:30:50,342 - root - INFO - Epoch 77:
+2024-04-13 06:08:05,883 - root - INFO - Epoch77: time_cost:3389.7545177936554 train_loss:0.16295088361265275
+2024-04-13 06:08:05,883 - root - INFO - train: loss:0.2377	msle:0.2377	male:0.3908	mape:0.0741	pcc:0.9877
+2024-04-13 06:08:05,883 - root - INFO - val: loss:2.5897	msle:2.5887	male:1.1050	mape:0.2474	pcc:0.7779
+2024-04-13 06:08:05,884 - root - INFO - test: loss:2.5457	msle:2.5015	male:1.0903	mape:0.2481	pcc:0.7815
+2024-04-13 06:08:10,067 - root - INFO - Epoch 78:
+2024-04-13 07:44:23,045 - root - INFO - Epoch78: time_cost:3319.524425268173 train_loss:0.1582487767937699
+2024-04-13 07:44:23,045 - root - INFO - train: loss:0.2335	msle:0.2273	male:0.3492	mape:0.0646	pcc:0.9851
+2024-04-13 07:44:23,046 - root - INFO - val: loss:2.5679	msle:2.5654	male:1.0921	mape:0.2529	pcc:0.7757
+2024-04-13 07:44:23,046 - root - INFO - test: loss:2.5492	msle:2.5009	male:1.0835	mape:0.2545	pcc:0.7786
+2024-04-13 07:44:27,242 - root - INFO - Epoch 79:
+2024-04-13 09:21:45,286 - root - INFO - Epoch79: time_cost:3384.374094724655 train_loss:0.15636514276300953
+2024-04-13 09:21:45,286 - root - INFO - train: loss:0.2683	msle:0.2642	male:0.3896	mape:0.0714	pcc:0.9840
+2024-04-13 09:21:45,286 - root - INFO - val: loss:2.5595	msle:2.5568	male:1.0920	mape:0.2453	pcc:0.7797
+2024-04-13 09:21:45,287 - root - INFO - test: loss:2.5598	msle:2.5104	male:1.0860	mape:0.2493	pcc:0.7798
+2024-04-13 09:21:49,492 - root - INFO - Epoch 80:
+2024-04-13 10:58:53,323 - root - INFO - Epoch80: time_cost:3375.498778104782 train_loss:0.1554461253944057
+2024-04-13 10:58:53,324 - root - INFO - train: loss:0.3217	msle:0.3206	male:0.4527	mape:0.0842	pcc:0.9839
+2024-04-13 10:58:53,324 - root - INFO - val: loss:2.6318	msle:2.6291	male:1.1147	mape:0.2471	pcc:0.7766
+2024-04-13 10:58:53,324 - root - INFO - test: loss:2.6192	msle:2.5712	male:1.1079	mape:0.2504	pcc:0.7768
+2024-04-13 10:58:53,324 - root - INFO - No improvement over 15 epochs, stop training
+2024-04-13 10:58:53,324 - root - INFO - Loading the best model at epoch 64
+2024-04-13 10:58:53,888 - root - INFO - Loaded the best model at epoch 64 for inference
+2024-04-13 11:39:28,937 - root - INFO - Runs:0
+ {'train': {'msle': [3.3658, 3.3336, 3.2792, 3.0792, 3.006, 2.7546, 2.7917, 2.3778, 2.241, 2.0796, 2.1348, 1.9021, 1.653, 1.5595, 1.5431, 1.4397, 1.2834, 1.181, 1.1043, 1.0206, 0.9162, 1.0532, 1.0055, 0.7485, 0.7697, 0.6578, 0.6269, 0.5651, 0.6886, 0.553, 0.5744, 0.5129, 0.5183, 0.473, 0.5023, 0.5407, 0.418, 0.3955, 0.4299, 0.3922, 0.4141, 0.3806, 0.4843, 0.4023, 0.3405, 0.3542, 0.4041, 0.2695, 0.3203, 0.3144, 0.3439, 0.3737, 0.2656, 0.2885, 0.3032, 0.3108, 0.3092, 0.2869, 0.2797, 0.3206, 0.2445, 0.2614, 0.29, 0.2548, 0.2285, 0.2466, 0.2696, 0.24, 0.2837, 0.2704, 0.2495, 0.2447, 0.2772, 0.2326, 0.2658, 0.2542, 0.238, 0.2377, 0.2273, 0.2642, 0.3206, 0.2285], 'male': [1.3354, 1.3533, 1.347, 1.3032, 1.2929, 1.2271, 1.2586, 1.1305, 1.0874, 1.0575, 1.0915, 1.0192, 0.9355, 0.924, 0.9102, 0.8849, 0.8023, 0.7589, 0.7427, 0.6984, 0.6521, 0.7017, 0.6787, 0.5633, 0.5869, 0.5398, 0.5251, 0.4873, 0.5378, 0.4739, 0.4786, 0.4441, 0.4484, 0.4361, 0.4315, 0.4748, 0.4142, 0.3923, 0.4084, 0.392, 0.4072, 0.392, 0.4309, 0.4141, 0.3904, 0.3935, 0.4058, 0.3454, 0.388, 0.3662, 0.3931, 0.4098, 0.3353, 0.3664, 0.3914, 0.3748, 0.3806, 0.3508, 0.3739, 0.4044, 0.359, 0.3757, 0.3937, 0.3734, 0.3501, 0.36, 0.3904, 0.3603, 0.4006, 0.382, 0.3661, 0.3433, 0.3994, 0.3488, 0.3821, 0.388, 0.3644, 0.3908, 0.3492, 0.3896, 0.4527, 0.3501], 'mape': [0.34, 0.3459, 0.3409, 0.3266, 0.3221, 0.2994, 0.3076, 0.2673, 0.252, 0.2386, 0.2482, 0.2251, 0.2014, 0.1982, 0.1898, 0.1842, 0.16, 0.1513, 0.1499, 0.136, 0.1276, 0.1315, 0.1284, 0.1078, 0.1102, 0.1017, 0.0985, 0.0932, 0.0993, 0.0886, 0.0892, 0.0838, 0.084, 0.0815, 0.0794, 0.0875, 0.077, 0.0736, 0.0754, 0.0726, 0.0756, 0.0723, 0.0777, 0.0773, 0.0744, 0.0744, 0.0753, 0.0659, 0.0726, 0.0683, 0.0756, 0.0746, 0.0629, 0.0682, 0.0743, 0.07, 0.0699, 0.064, 0.0694, 0.0762, 0.0681, 0.0706, 0.0747, 0.0707, 0.0662, 0.0675, 0.0728, 0.0677, 0.0747, 0.07, 0.0677, 0.0633, 0.0747, 0.0645, 0.0705, 0.0724, 0.0669, 0.0741, 0.0646, 0.0714, 0.0842, 0.0662], 'pcc': [0.7224, 0.7464, 0.7596, 0.7699, 0.7811, 0.7962, 0.8136, 0.83, 0.8454, 0.8652, 0.8711, 0.8854, 0.8991, 0.9077, 0.9173, 0.9228, 0.9275, 0.9338, 0.9391, 0.9413, 0.9406, 0.9498, 0.9491, 0.949, 0.9558, 0.96, 0.9639, 0.9617, 0.9629, 0.9658, 0.9645, 0.9654, 0.9653, 0.9703, 0.9698, 0.9687, 0.9744, 0.9734, 0.9732, 0.9758, 0.9747, 0.9747, 0.9716, 0.9746, 0.9782, 0.979, 0.975, 0.9812, 0.9794, 0.9797, 0.9783, 0.9774, 0.9819, 0.9814, 0.9826, 0.9807, 0.9804, 0.9815, 0.9818, 0.9814, 0.9846, 0.9843, 0.9825, 0.9847, 0.9857, 0.9855, 0.984, 0.9855, 0.9839, 0.9829, 0.9846, 0.9842, 0.9843, 0.9851, 0.9842, 0.9853, 0.9847, 0.9877, 0.9851, 0.984, 0.9839, 0.9857], 'loss': [3.424600388998574, 3.3746414415660073, 3.323115078853414, 3.100106633208461, 3.021472307023237, 2.7633497063643118, 2.7964236803326856, 2.3935327557643804, 2.2614545420755032, 2.0990482860975517, 2.1638444618614456, 1.9237228491941536, 1.68044079391071, 1.5831485672165624, 1.5741427769527987, 1.463539515348305, 1.3180160761084616, 1.206420154045895, 1.1285762856210855, 1.0532411554970251, 0.9390244299538153, 1.0877313548067251, 1.0384527594960058, 0.769574092804082, 0.7946602922386312, 0.6790459101544856, 0.6499451479634136, 0.5846868462995259, 0.7199643860233553, 0.5773449377626952, 0.600628961081047, 0.5367924879500884, 0.5396504716582976, 0.4939321106767773, 0.5267707465896676, 0.5641982377458656, 0.43598287907911776, 0.4087580990614693, 0.44910135516971716, 0.411474929138273, 0.43058399736591674, 0.39385353108197796, 0.5045841762400327, 0.41983482534441485, 0.3507389804856156, 0.3651248058143672, 0.42389919576457974, 0.2794479372189372, 0.3292013088946604, 0.326855478758015, 0.35905673602976673, 0.3880622517029264, 0.27519846759654243, 0.30175015038829034, 0.31519145310742047, 0.32140132760997064, 0.3199447953752883, 0.29905053873904264, 0.29041829689539395, 0.33131916297889724, 0.24897453031055503, 0.2669680532177683, 0.29464040194794244, 0.2612854296823906, 0.2318977971149328, 0.25435073554858595, 0.2735948803415748, 0.24710213865979475, 0.2919784272423892, 0.2763216604252223, 0.2582250528530002, 0.25417128916342757, 0.2800947839166255, 0.23870747357866196, 0.2737538666949024, 0.2584738352959213, 0.24362495431354553, 0.237687262987183, 0.23350282141910114, 0.2682835402269978, 0.3216776246902488, 0.2318977971149328]}, 'val': {'msle': [3.3498, 3.3551, 3.3561, 3.2272, 3.2354, 3.1236, 3.3716, 3.112, 3.1746, 3.2948, 3.5144, 3.4221, 3.2835, 3.234, 3.3911, 3.3445, 3.1932, 3.2122, 3.1206, 3.0547, 3.0787, 3.2122, 3.1749, 2.8966, 2.9117, 2.8051, 2.8165, 2.7813, 2.881, 2.7704, 2.743, 2.7433, 2.7086, 2.7289, 2.6917, 2.7239, 2.6269, 2.6271, 2.6136, 2.6288, 2.613, 2.5642, 2.6353, 2.6195, 2.5615, 2.607, 2.6753, 2.5379, 2.5678, 2.5761, 2.6402, 2.6206, 2.5299, 2.5579, 2.5672, 2.6024, 2.5362, 2.5538, 2.5732, 2.5905, 2.559, 2.5342, 2.6033, 2.5347, 2.5181, 2.5214, 2.5518, 2.5335, 2.5802, 2.5447, 2.5594, 2.5372, 2.5498, 2.5451, 2.559, 2.5984, 2.571, 2.5887, 2.5654, 2.5568, 2.6291, 2.5181], 'male': [1.3307, 1.3566, 1.3567, 1.3286, 1.3351, 1.3037, 1.3749, 1.299, 1.3068, 1.3384, 1.391, 1.3579, 1.3153, 1.3207, 1.3389, 1.33, 1.288, 1.2724, 1.2593, 1.2394, 1.2321, 1.2668, 1.2559, 1.1713, 1.1848, 1.1576, 1.1624, 1.1404, 1.1608, 1.1288, 1.1242, 1.1216, 1.1195, 1.1203, 1.1133, 1.1247, 1.0981, 1.0967, 1.0978, 1.1011, 1.0972, 1.0923, 1.0997, 1.103, 1.0909, 1.1011, 1.1074, 1.0787, 1.0963, 1.0913, 1.1044, 1.1005, 1.0777, 1.0854, 1.0903, 1.0911, 1.0835, 1.0867, 1.0939, 1.0982, 1.0905, 1.0866, 1.0977, 1.0847, 1.0795, 1.0806, 1.0944, 1.0867, 1.0985, 1.0893, 1.0866, 1.078, 1.0919, 1.0871, 1.0917, 1.0997, 1.0947, 1.105, 1.0921, 1.092, 1.1147, 1.0795], 'mape': [0.336, 0.3433, 0.3403, 0.3302, 0.3302, 0.3167, 0.3355, 0.3083, 0.3064, 0.3112, 0.329, 0.3156, 0.3033, 0.3052, 0.3098, 0.3103, 0.2899, 0.2921, 0.2927, 0.2814, 0.2758, 0.2899, 0.2878, 0.2594, 0.2649, 0.2581, 0.2658, 0.2535, 0.2588, 0.2551, 0.2462, 0.2504, 0.2488, 0.2548, 0.253, 0.2475, 0.2449, 0.246, 0.2435, 0.2477, 0.2439, 0.2464, 0.2399, 0.2421, 0.2409, 0.2487, 0.2498, 0.2399, 0.2413, 0.2475, 0.2508, 0.2489, 0.2426, 0.2455, 0.2413, 0.2484, 0.2416, 0.248, 0.2478, 0.2446, 0.2472, 0.2448, 0.2468, 0.2397, 0.2417, 0.2424, 0.2453, 0.2434, 0.2469, 0.2464, 0.2447, 0.2429, 0.2423, 0.2458, 0.2453, 0.2487, 0.2495, 0.2474, 0.2529, 0.2453, 0.2471, 0.2417], 'pcc': [0.7268, 0.7474, 0.7553, 0.7593, 0.7629, 0.7663, 0.7643, 0.7701, 0.7691, 0.768, 0.7619, 0.7628, 0.7636, 0.7651, 0.7669, 0.7657, 0.7682, 0.7648, 0.7661, 0.7638, 0.7525, 0.7675, 0.766, 0.7622, 0.7677, 0.7714, 0.7716, 0.7659, 0.7682, 0.77, 0.7738, 0.7678, 0.7701, 0.7698, 0.773, 0.7733, 0.7775, 0.7753, 0.7781, 0.7771, 0.7777, 0.7799, 0.7798, 0.7787, 0.7811, 0.7778, 0.7711, 0.7793, 0.7793, 0.7775, 0.774, 0.7756, 0.7795, 0.7789, 0.7804, 0.775, 0.7817, 0.778, 0.7769, 0.7785, 0.7781, 0.7815, 0.7762, 0.7826, 0.7822, 0.7823, 0.7802, 0.7816, 0.7781, 0.7794, 0.7779, 0.7794, 0.7821, 0.7788, 0.78, 0.7755, 0.7765, 0.7779, 0.7757, 0.7797, 0.7766, 0.7822], 'loss': [3.3662959932789756, 3.3702352257902084, 3.3690713930239884, 3.239410055338621, 3.2472532107282004, 3.131015024300095, 3.384229476600187, 3.1206369165425127, 3.184080701720978, 3.311532865421049, 3.5334910732725713, 3.441003701342826, 3.3000383715911377, 3.246835464281987, 3.410789812875853, 3.3630368238004182, 3.2150667819494148, 3.23324482697389, 3.141473868508105, 3.0738453668774235, 3.108389674795718, 3.24614271368595, 3.2040683381412483, 2.9136820812659594, 2.9305793263456708, 2.8223800334388716, 2.8338438127718835, 2.795027556172249, 2.897208139424103, 2.779041003667128, 2.7643327371726056, 2.7634744252456986, 2.7224779926596083, 2.7357007519869634, 2.7005953509622174, 2.7416648559600425, 2.6456564902791646, 2.6419971484702804, 2.626404616737675, 2.6340110764021736, 2.6192762723936145, 2.5745150193536785, 2.646004185738503, 2.6244812284465477, 2.5706828291594968, 2.6138592448004054, 2.680777848139448, 2.545473276802691, 2.56761532364977, 2.584070222903368, 2.6496089403085694, 2.6304835523693617, 2.5380529379937258, 2.5649443614683163, 2.5717576787618768, 2.6099368521391373, 2.537564472566033, 2.556579682418222, 2.5803298802469286, 2.5977003458264907, 2.5623400560068577, 2.5425202777888254, 2.611283695578859, 2.5390629704737235, 2.5214319134197245, 2.5268752186629757, 2.552376398458549, 2.53590970683918, 2.5867699791392855, 2.5452623196825668, 2.5631192126261366, 2.5459704666603855, 2.5498158285347703, 2.550025531404795, 2.5653716152218924, 2.604197396788984, 2.5748357741159325, 2.589741259601058, 2.567867339800801, 2.5595261751265395, 2.631822521710371, 2.5214319134197245]}, 'test': {'msle': [3.4214, 3.4142, 3.3796, 3.2368, 3.2051, 3.1047, 3.3372, 3.098, 3.1274, 3.2453, 3.452, 3.3562, 3.22, 3.1837, 3.2586, 3.2917, 3.0867, 3.1416, 3.0378, 2.9782, 2.8769, 3.1836, 3.1657, 2.698, 2.8088, 2.6572, 2.7168, 2.6844, 2.8045, 2.635, 2.6457, 2.6166, 2.6635, 2.6668, 2.609, 2.6116, 2.5442, 2.5409, 2.5571, 2.5539, 2.5398, 2.5226, 2.6067, 2.5597, 2.4813, 2.5754, 2.6405, 2.4372, 2.4927, 2.4962, 2.5539, 2.5406, 2.4671, 2.5043, 2.4761, 2.5303, 2.4659, 2.5134, 2.5145, 2.5376, 2.466, 2.4698, 2.5268, 2.4396, 2.4533, 2.4716, 2.4995, 2.4627, 2.5003, 2.4473, 2.4301, 2.4328, 2.4853, 2.4733, 2.4833, 2.4993, 2.5126, 2.5015, 2.5009, 2.5104, 2.5712, 2.4533], 'male': [1.3517, 1.3765, 1.3739, 1.3426, 1.3428, 1.3131, 1.3806, 1.3054, 1.3064, 1.3276, 1.3884, 1.3537, 1.3134, 1.3126, 1.3208, 1.3227, 1.2725, 1.2587, 1.2449, 1.2254, 1.2011, 1.2565, 1.2452, 1.15, 1.1672, 1.1388, 1.1519, 1.1263, 1.1443, 1.1159, 1.1119, 1.1032, 1.1104, 1.1154, 1.1, 1.1098, 1.0884, 1.0925, 1.0928, 1.0956, 1.0915, 1.0919, 1.1001, 1.0982, 1.0793, 1.0953, 1.1002, 1.0685, 1.0874, 1.0806, 1.0941, 1.0954, 1.0702, 1.0816, 1.0769, 1.0831, 1.074, 1.0811, 1.0899, 1.0895, 1.077, 1.0776, 1.0891, 1.0699, 1.0717, 1.0742, 1.0873, 1.0752, 1.0881, 1.0763, 1.0692, 1.0676, 1.0809, 1.0783, 1.0788, 1.0849, 1.0871, 1.0903, 1.0835, 1.086, 1.1079, 1.0717], 'mape': [0.3473, 0.3546, 0.351, 0.3394, 0.3374, 0.3241, 0.3416, 0.3147, 0.3107, 0.3118, 0.3313, 0.3189, 0.3065, 0.3086, 0.308, 0.3121, 0.289, 0.2927, 0.2918, 0.2819, 0.2712, 0.2912, 0.2893, 0.2574, 0.2629, 0.2569, 0.2666, 0.2542, 0.2586, 0.255, 0.2463, 0.2492, 0.2513, 0.2587, 0.2542, 0.2484, 0.2468, 0.2491, 0.2468, 0.2515, 0.2472, 0.2515, 0.2436, 0.2449, 0.2423, 0.2512, 0.2522, 0.2422, 0.2434, 0.2501, 0.2529, 0.2522, 0.246, 0.2491, 0.2425, 0.2513, 0.2452, 0.2527, 0.2525, 0.2485, 0.2481, 0.2476, 0.2495, 0.242, 0.2446, 0.2467, 0.2493, 0.2462, 0.2495, 0.2477, 0.2452, 0.246, 0.2454, 0.2481, 0.2463, 0.2483, 0.2522, 0.2481, 0.2545, 0.2493, 0.2504, 0.2446], 'pcc': [0.7239, 0.7457, 0.7565, 0.7613, 0.7687, 0.7709, 0.7717, 0.7738, 0.7754, 0.7743, 0.7696, 0.7705, 0.7706, 0.7712, 0.7791, 0.7717, 0.7773, 0.7701, 0.774, 0.7712, 0.7687, 0.77, 0.7677, 0.7772, 0.7763, 0.7828, 0.7786, 0.7721, 0.7725, 0.779, 0.7798, 0.7761, 0.772, 0.7736, 0.7779, 0.7803, 0.7817, 0.7801, 0.7804, 0.781, 0.7807, 0.7814, 0.7789, 0.7803, 0.7849, 0.778, 0.7707, 0.7855, 0.782, 0.7818, 0.7781, 0.7791, 0.7819, 0.7804, 0.7845, 0.7782, 0.784, 0.7788, 0.7786, 0.7786, 0.783, 0.7837, 0.779, 0.787, 0.7846, 0.783, 0.7806, 0.7841, 0.7812, 0.7847, 0.7862, 0.7855, 0.7836, 0.7821, 0.7836, 0.7809, 0.7785, 0.7815, 0.7786, 0.7798, 0.7768, 0.7846], 'loss': [3.48234603314829, 3.4792780181177294, 3.4438980995071797, 3.292569084192019, 3.255448021799869, 3.156758756209262, 3.385377753340578, 3.1505359558052324, 3.1810883956685183, 3.3028723562907145, 3.5149278323386426, 3.41949673971818, 3.2853671796046844, 3.2449094457937884, 3.3201870438517647, 3.3575495886694533, 3.1387533115230473, 3.210415407615125, 3.093959789547758, 3.0340689568523227, 2.926674499368542, 3.2470012434351236, 3.230884655052868, 2.7441508035290663, 2.8575796871138097, 2.7022437975592584, 2.7641697260719305, 2.7329323532603644, 2.8576931717641085, 2.6889564475044567, 2.6994293964023583, 2.672186194642059, 2.7142460721739763, 2.726341472817853, 2.6641992275836563, 2.663865905364354, 2.592921086013486, 2.593045489415767, 2.604240197841035, 2.600448339767121, 2.5906599720582992, 2.5708208642525747, 2.6533802605283747, 2.6105924437929713, 2.5280901639223425, 2.6277696339095966, 2.704153597450637, 2.4829501910755623, 2.5385592158098778, 2.5466925001566647, 2.6091534300952075, 2.59460002106514, 2.5146498721421016, 2.5495799157401846, 2.523179406392544, 2.5790779271808555, 2.5088798454697114, 2.5630908815803775, 2.5662552846194715, 2.589007586343106, 2.515301193392463, 2.514645394672883, 2.57383523287407, 2.4825259791968857, 2.4927736810890577, 2.512715746181887, 2.539476336626674, 2.499740715762998, 2.5395017963330035, 2.4895915443628787, 2.4680626698005, 2.4707553980722197, 2.5267534670450287, 2.517501973968474, 2.526613683593174, 2.5467907551048024, 2.5590591300726833, 2.545707342457922, 2.54916481715707, 2.5598389331424367, 2.619154157593579, 2.4927736810890577]}}
+2024-04-13 11:39:33,779 - root - INFO - Final: msle:2.4533 male:1.0717 mape:0.2446 pcc:0.7846
