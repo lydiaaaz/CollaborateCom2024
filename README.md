@@ -1,6 +1,6 @@
-# Multi-level Representation Learning with Neural Hawkes Process for Information Diffusion Prediction
+# Multi-Level Representation Learning with Neural Hawkes Process for Information Diffusion Prediction
 
-This is the implementation of Multi-level Representation Learning with Neural Hawkes Process for Information Diffusion Prediction (CollaborateCom 2024)
+This is the implementation of Multi-Level Representation Learning with Neural Hawkes Process for Information Diffusion Prediction (CollaborateCom 2024)
 
 ## Requirements
 
